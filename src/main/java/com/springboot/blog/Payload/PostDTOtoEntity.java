@@ -1,9 +1,9 @@
-package com.springboot.blog.Util;
+package com.springboot.blog.Payload;
 
-import com.springboot.DTO.PostDTO;
+import com.springboot.blog.DTO.PostDTO;
 import com.springboot.blog.Entity.Post;
 
-public class DTOtoEntity {
+public class PostDTOtoEntity {
 	public static Post postDTOtoEntity(PostDTO postDTO) {
 
 		Post post = new Post();
